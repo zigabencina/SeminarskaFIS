@@ -1,0 +1,82 @@
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/bin/Debug/Seminarska Fi.exe.config
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/bin/Debug/Seminarska Fi.exe
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/bin/Debug/Seminarska Fi.pdb
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.csproj.AssemblyReference.cache
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska_Fi.Form1.resources
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska_Fi.Properties.Resources.resources
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.csproj.GenerateResource.cache
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.csproj.CoreCompileInputs.cache
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.exe
+C:/Users/dijak/source/repos/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.pdb
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/bin/Debug/Seminarska Fi.exe.config
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/bin/Debug/Seminarska Fi.exe
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/bin/Debug/Seminarska Fi.pdb
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.csproj.AssemblyReference.cache
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska_Fi.Form1.resources
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska_Fi.Properties.Resources.resources
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.csproj.GenerateResource.cache
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.csproj.CoreCompileInputs.cache
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.exe
+/Users/zigabencina/Dropbox/Seminarska Fi/Seminarska Fi/obj/Debug/Seminarska Fi.pdb
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.AssemblyReference.cache
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska_Fi.Form1.resources
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska_Fi.Properties.Resources.resources
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.GenerateResource.cache
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CoreCompileInputs.cache
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska Fi.exe
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska Fi.pdb
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\bin\Debug\Seminarska Fi.exe.config
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\bin\Debug\Seminarska Fi.exe
+C:\Users\zigab\Dropbox\Seminarska Fi\Seminarska Fi\bin\Debug\Seminarska Fi.pdb
+C:\Users\Dijak\Desktop\Seminarska Fi\Seminarska Fi\bin\Debug\Seminarska Fi.exe.config
+C:\Users\Dijak\Desktop\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska Fi.exe
+C:\Users\Dijak\Desktop\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska Fi.pdb
+C:\Users\Dijak\Desktop\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska Fi.csprojResolveAssemblyReference.cache
+C:\Users\Dijak\Desktop\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska_Fi.Form1.resources
+C:\Users\Dijak\Desktop\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska_Fi.Properties.Resources.resources
+C:\Users\Dijak\Desktop\Seminarska Fi\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.GenerateResource.Cache
+C:\Users\Dijak\Desktop\Seminarska Fi\Seminarska Fi\bin\Debug\Seminarska Fi.exe
+C:\Users\Dijak\Desktop\Seminarska Fi\Seminarska Fi\bin\Debug\Seminarska Fi.pdb
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.AssemblyReference.cache
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska_Fi.Form1.resources
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska_Fi.Uporabnik.resources
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska_Fi.Admin.resources
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska_Fi.Properties.Resources.resources
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.GenerateResource.cache
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CoreCompileInputs.cache
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska Fi.exe
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska Fi.pdb
+C:\Users\zigab\Dropbox\Seminarska Fi\bin\Debug\Seminarska Fi.exe.config
+C:\Users\zigab\Dropbox\Seminarska Fi\bin\Debug\Seminarska Fi.exe
+C:\Users\zigab\Dropbox\Seminarska Fi\bin\Debug\Seminarska Fi.pdb
+C:\Users\dijak\Documents\Seminarska Fi\bin\Debug\Database1.mdf
+C:\Users\dijak\Documents\Seminarska Fi\bin\Debug\Database1_log.ldf
+C:\Users\dijak\Documents\Seminarska Fi\bin\Debug\Seminarska Fi.exe.config
+C:\Users\dijak\Documents\Seminarska Fi\bin\Debug\Seminarska Fi.exe
+C:\Users\dijak\Documents\Seminarska Fi\bin\Debug\Seminarska Fi.pdb
+C:\Users\dijak\Documents\Seminarska Fi\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.AssemblyReference.cache
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska_Fi.Form1.resources
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska_Fi.Uporabnik.resources
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska_Fi.Admin.resources
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska_Fi.Properties.Resources.resources
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.GenerateResource.cache
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CoreCompileInputs.cache
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CopyComplete
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska Fi.exe
+C:\Users\dijak\Documents\Seminarska Fi\obj\Debug\Seminarska Fi.pdb
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.SuggestedBindingRedirects.cache
+C:\Users\zigab\Dropbox\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CopyComplete
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.exe.config
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.exe
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.pdb
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.AssemblyReference.cache
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Form1.resources
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Uporabnik.resources
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Admin.resources
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Properties.Resources.resources
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.GenerateResource.cache
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CoreCompileInputs.cache
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CopyComplete
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.exe
+C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.pdb

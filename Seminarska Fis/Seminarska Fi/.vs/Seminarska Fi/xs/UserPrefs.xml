@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{7987018A-53D1-4A68-BC89-F319C70BDBB6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Seminarska Fi/Program.cs">
+    <Files>
+      <File FileName="Seminarska Fi/Form1.cs" Line="26" Column="13" />
+      <File FileName="Seminarska Fi/Program.cs" Line="23" Column="1" />
+      <File FileName="Seminarska Fi/App.config" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Seminarska Fi" expanded="True">
+            <Node name="Seminarska Fi" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Seminarska_220Fi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

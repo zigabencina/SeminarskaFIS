@@ -1,0 +1,3 @@
+user,ziga,bencina
+user,joze,cvelbar
+admin,admin,pass
