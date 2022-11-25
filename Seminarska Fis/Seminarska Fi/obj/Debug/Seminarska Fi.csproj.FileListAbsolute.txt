@@ -80,3 +80,14 @@ C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.cs
 C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CopyComplete
 C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.exe
 C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.pdb
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.exe.config
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.exe
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.pdb
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csprojResolveAssemblyReference.cache
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Form1.resources
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Uporabnik.resources
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Admin.resources
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Properties.Resources.resources
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.GenerateResource.Cache
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.exe
+C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.pdb

@@ -21,6 +21,7 @@ namespace Seminarska_Fi
         public Form1()
         {
             InitializeComponent();
+            uv.podatki();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -72,7 +73,7 @@ namespace Seminarska_Fi
         {
 
 
-            uv.append();
+            
 
         }
 
@@ -83,7 +84,7 @@ namespace Seminarska_Fi
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-            uv.podatki();
+            
         }
     }
 }

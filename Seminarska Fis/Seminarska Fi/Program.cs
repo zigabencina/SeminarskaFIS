@@ -12,26 +12,27 @@ namespace Seminarska_Fi
     class UporabniskiVmesnik
     {
 
-        string[,] uporabniki = new string[100,100];
+        string[,] uporabniki; // = new string[100,3];
         // na indeksu 0 je tip uporabnika 
         // na indeksu 1 je uporabniško ime
         // na indeksu 2 je geslo
         int stUporabnik;
-
+        string path = @"C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\uporabniki.txt";
         public void podatki()
         {
-            string[] lines = File.ReadAllLines(@"C:\Users\dijak\Downloads\Seminarska Fis\Seminarska Fi\uporabniki.txt");
+            string[] lines = File.ReadAllLines(path);
+            uporabniki = new string[lines.Length, 3];
             int st = 0;
             foreach (string i in lines)
             {
                 string [] podatek = i.Split(',');
 
-                for(int pod = 0; pod < lines.Length; pod++)
+                for(int pod = 0; pod < podatek.Length; pod++)
                 {
-                    uporabniki[st, pod] = podatek[pod];
-                    MessageBox.Show(uporabniki[st, pod]);
+                    uporabniki[st,pod] = podatek[pod];
                 }
-                st += 1;
+                st++;
+                stUporabnik++;
             }
         }
 
@@ -44,27 +45,12 @@ namespace Seminarska_Fi
         }
 
 
-        public void append()
-        {
-            uporabniki[0, 0] = "admin";
-            uporabniki[0, 1] = "user";
-            uporabniki[0, 2] = "user";
-            uporabniki[1, 0] = "admin";
-            stUporabnik +=1;
-            uporabniki[1, 1] = "benzig";
-            stUporabnik += 1;
-            uporabniki[1, 2] = "aljazm";
-            stUporabnik += 1;
-            uporabniki[2, 0] = "admin";
-            uporabniki[2, 1] = "zigben";
-            uporabniki[2, 2] = "maljaz";
-        }
-
         public bool aliObstaja(string uporabnik)
         {
             for(int i = 0; i < stUporabnikov(); i++)
             {
-                if(uporabniki[1, i] == uporabnik || uporabniki[1, 0] == uporabnik)
+                
+                if(uporabniki[i, 1] == uporabnik)
                 {
                     return false;
                 }
@@ -76,35 +62,42 @@ namespace Seminarska_Fi
 
         public void registracijaUporabnika(string uporabnik, string pass)
         {
-            if (aliObstaja(uporabnik))
+            if (aliObstaja(uporabnik) && uporabnik != "")
             {
-
-                uporabniki[0, stUporabnikov()] = "user";
-                uporabniki[1, stUporabnikov()] = uporabnik;
-                uporabniki[2, stUporabnikov()] = pass;
+                using (StreamWriter sw = File.AppendText(path))
+                {
+                    sw.WriteLine(string.Format("user,{0},{1}",uporabnik,pass));
+                }
+                
 
                 MessageBox.Show(String.Format("Vspesno registrirani {0}", uporabnik));
 
-                stUporabnik += 1; 
-                
+                stUporabnik += 1;
+                podatki();
+
             }
             else
             {
-                MessageBox.Show("Uporabniško ime je zasedeno");
+                MessageBox.Show("Uporabniško ime je zasedeno oz neveljavno");
             }
         }
         public bool vpisUporabnika(string uporabnik,string pass)
         {
             
+            
             if (!aliObstaja(uporabnik) && uporabnik != "admin")
             {
-                for (int i = 0; i < uporabniki.Length; i++)
+                for (int i = 0; i < stUporabnikov(); i++)
                 {
-                    if (uporabniki[1, i] == uporabnik)
+
+                    if (uporabniki[i, 1] == uporabnik)
                     {
-                        if (uporabniki[2, i] == pass)
+                        
+                        if (uporabniki[i, 2] == pass)
                         {
+                            
                             return true;
+                      
                             
                         }
                         else
@@ -118,9 +111,9 @@ namespace Seminarska_Fi
             {
                 for (int i = 0; i < uporabniki.Length; i++)
                 {
-                    if (uporabniki[1, i] == uporabnik)
+                    if (uporabniki[i,1] == uporabnik)
                     {
-                        if (uporabniki[2, i] == pass)
+                        if (uporabniki[i,2] == pass)
                         {
                             AdminVmesnik.a();
                             return true;
