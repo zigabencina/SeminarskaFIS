@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.IO;
+using System.Data;
 
 namespace Seminarska_Fi
 {
@@ -17,7 +18,8 @@ namespace Seminarska_Fi
         // na indeksu 1 je uporabniško ime
         // na indeksu 2 je geslo
         int stUporabnik;
-        string path = @"C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\uporabniki.txt";
+        // spremeni path ce nisi ziga in tude ce si zameni k nisi zmeri na istm kompu
+        string path = @"C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\uporabniki.txt";
         public void podatki()
         {
             string[] lines = File.ReadAllLines(path);
@@ -34,6 +36,7 @@ namespace Seminarska_Fi
                 st++;
                 stUporabnik++;
             }
+            
         }
 
         
@@ -148,6 +151,13 @@ namespace Seminarska_Fi
         public static void a()
         {
             MessageBox.Show("okej");
+        }
+    }
+    class IskanjePocitic
+    {
+        public static void a()
+        {
+
         }
     }
 

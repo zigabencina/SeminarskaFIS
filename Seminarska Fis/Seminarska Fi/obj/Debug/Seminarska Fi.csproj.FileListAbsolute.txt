@@ -91,3 +91,16 @@ C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Se
 C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.GenerateResource.Cache
 C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.exe
 C:\Users\Dijak\Downloads\SeminarskaFIS-main\SeminarskaFIS-main\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.pdb
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.exe.config
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.exe
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.pdb
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.AssemblyReference.cache
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Form1.resources
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Uporabnik.resources
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Admin.resources
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska_Fi.Properties.Resources.resources
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.GenerateResource.cache
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CoreCompileInputs.cache
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CopyComplete
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.exe
+C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.pdb

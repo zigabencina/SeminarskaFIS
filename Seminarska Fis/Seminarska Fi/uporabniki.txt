@@ -1,6 +1,3 @@
 user,ziga,bencina
 user,joze,cvelbar
 admin,admin,pass
-user,aaaa,aaaa
-user,aaaaa,aaaaaaa
-user,aaaassd,asdsadas
