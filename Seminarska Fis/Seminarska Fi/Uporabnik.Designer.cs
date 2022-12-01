@@ -32,6 +32,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.iskanje_po = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,17 +75,38 @@
             this.dataGridView1.Size = new System.Drawing.Size(679, 352);
             this.dataGridView1.TabIndex = 3;
             // 
+            // iskanje_po
+            // 
+            this.iskanje_po.FormattingEnabled = true;
+            this.iskanje_po.Location = new System.Drawing.Point(780, 66);
+            this.iskanje_po.Name = "iskanje_po";
+            this.iskanje_po.Size = new System.Drawing.Size(131, 21);
+            this.iskanje_po.TabIndex = 4;
+            this.iskanje_po.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(733, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Išči po:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Uporabnik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1451, 645);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.iskanje_po);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pocitnice);
             this.Name = "Uporabnik";
-            this.Text = "Form2";
+            this.Text = "Pocitnice";
             this.Load += new System.EventHandler(this.Uporabnik_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -97,5 +120,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ComboBox iskanje_po;
+        private System.Windows.Forms.Label label2;
     }
 }

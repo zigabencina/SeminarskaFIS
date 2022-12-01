@@ -9,7 +9,17 @@ using System.Data;
 
 namespace Seminarska_Fi
 {
+    class Pocitnice
+    {
+        string[] tip_pocitnic = new string[4] {"Potovanje","Krizarjenje","Kampiranje","Hotel"};
+        int id;
+        int max_ljudi;
+        string drzava;
+        int cena;
+        string[] termini; // termini v stringu zapisani format = "min:ura,dan.mesec.leto min:ura,dan.mesec.leto"
+        string[] rezervacije; // rezervacije v stringu zapisane format = "dan.mesec.leto dan.mesec.leto"
 
+    }
     class UporabniskiVmesnik
     {
 
@@ -19,7 +29,7 @@ namespace Seminarska_Fi
         // na indeksu 2 je geslo
         int stUporabnik;
         // spremeni path ce nisi ziga in tude ce si zameni k nisi zmeri na istm kompu
-        string path = @"C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\uporabniki.txt";
+        string path = @"C:\Users\dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\uporabniki.txt";
         public void podatki()
         {
             string[] lines = File.ReadAllLines(path);
@@ -55,17 +65,17 @@ namespace Seminarska_Fi
                 
                 if(uporabniki[i, 1] == uporabnik)
                 {
-                    return false;
+                    return true;
                 }
             }
 
 
-            return true;
+            return false;
         }
 
         public void registracijaUporabnika(string uporabnik, string pass)
         {
-            if (aliObstaja(uporabnik) && uporabnik != "")
+            if (!aliObstaja(uporabnik) && uporabnik != "")
             {
                 using (StreamWriter sw = File.AppendText(path))
                 {
@@ -88,7 +98,7 @@ namespace Seminarska_Fi
         {
             
             
-            if (!aliObstaja(uporabnik) && uporabnik != "admin")
+            if (aliObstaja(uporabnik) && uporabnik != "admin")
             {
                 for (int i = 0; i < stUporabnikov(); i++)
                 {
@@ -100,17 +110,17 @@ namespace Seminarska_Fi
                         {
                             
                             return true;
-                      
-                            
+
+
                         }
                         else
                         {
-                            return false;
+                            MessageBox.Show("Napacno vneseno geslo");
                         }
                     }
                 }
             }
-            else if (uporabnik == "admin" && pass == "password")
+            else if (uporabnik == "admin")
             {
                 for (int i = 0; i < uporabniki.Length; i++)
                 {
@@ -139,6 +149,8 @@ namespace Seminarska_Fi
 
         }
 
+        
+
         // po časovem okvirju
         static void iskanjePoctinic(string p)
         {
@@ -150,7 +162,8 @@ namespace Seminarska_Fi
     {
         public static void a()
         {
-            MessageBox.Show("okej");
+            Admin a = new Admin();
+            a.Show();
         }
     }
     class IskanjePocitic

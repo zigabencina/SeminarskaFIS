@@ -34,7 +34,16 @@ namespace Seminarska_Fi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string p = pocitnice.Text;
+            
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -16,13 +16,15 @@ namespace Seminarska_Fi
     public partial class Form1 : Form
     {
         UporabniskiVmesnik uv = new UporabniskiVmesnik();
-
+        Form f = new Form();
 
         public Form1()
         {
             InitializeComponent();
             uv.podatki();
+            Password.PasswordChar = '*';
         }
+        
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {   
@@ -31,26 +33,24 @@ namespace Seminarska_Fi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Uporabnik upor = new Uporabnik(); 
-            
+            Uporabnik u = new Uporabnik();
+
             string username = Username.Text;
             string password = Password.Text;
 
 
             if(uv.vpisUporabnika(username,password))
             {
+                u.Show();
                 MessageBox.Show("Vspešno vpisani");
-                upor.Show();
-                this.Close();
+
             }
-            else
-            {
-                MessageBox.Show("Poskusite ponovno");
-            }
+            
 
         }
         private void button1_Click_1(object sender, EventArgs e)
         {
+            
             string username = Username.Text;
             string password = Password.Text;
 
@@ -85,6 +85,23 @@ namespace Seminarska_Fi
         private void button1_Click_2(object sender, EventArgs e)
         {
             
+        }
+
+        private void Password_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+        private void Password_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            if (Password.Text != "")
+            {
+                if (e.KeyCode == Keys.Enter)
+                {
+                    Login.Focus();
+                    Login.PerformClick();
+                }
+            }
         }
     }
 }

@@ -35,14 +35,12 @@ namespace Seminarska_Fi
             this.Username = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.TextBox();
             this.Register = new System.Windows.Forms.Button();
-            this.button1_arr = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1_username
             // 
             this.label1_username.AutoSize = true;
-            this.label1_username.Location = new System.Drawing.Point(290, 35);
+            this.label1_username.Location = new System.Drawing.Point(294, 161);
             this.label1_username.Name = "label1_username";
             this.label1_username.Size = new System.Drawing.Size(61, 13);
             this.label1_username.TabIndex = 1;
@@ -51,7 +49,7 @@ namespace Seminarska_Fi
             // 
             // Login
             // 
-            this.Login.Location = new System.Drawing.Point(543, 123);
+            this.Login.Location = new System.Drawing.Point(547, 249);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(75, 23);
             this.Login.TabIndex = 0;
@@ -62,7 +60,7 @@ namespace Seminarska_Fi
             // label2_password
             // 
             this.label2_password.AutoSize = true;
-            this.label2_password.Location = new System.Drawing.Point(290, 72);
+            this.label2_password.Location = new System.Drawing.Point(294, 198);
             this.label2_password.Name = "label2_password";
             this.label2_password.Size = new System.Drawing.Size(59, 13);
             this.label2_password.TabIndex = 2;
@@ -70,21 +68,22 @@ namespace Seminarska_Fi
             // 
             // Username
             // 
-            this.Username.Location = new System.Drawing.Point(348, 32);
+            this.Username.Location = new System.Drawing.Point(352, 158);
             this.Username.Name = "Username";
             this.Username.Size = new System.Drawing.Size(270, 20);
             this.Username.TabIndex = 3;
             // 
             // Password
             // 
-            this.Password.Location = new System.Drawing.Point(348, 69);
+            this.Password.Location = new System.Drawing.Point(352, 195);
             this.Password.Name = "Password";
             this.Password.Size = new System.Drawing.Size(270, 20);
             this.Password.TabIndex = 4;
+            this.Password.TextChanged += new System.EventHandler(this.Password_TextChanged);
             // 
             // Register
             // 
-            this.Register.Location = new System.Drawing.Point(462, 123);
+            this.Register.Location = new System.Drawing.Point(466, 249);
             this.Register.Name = "Register";
             this.Register.Size = new System.Drawing.Size(75, 23);
             this.Register.TabIndex = 5;
@@ -92,33 +91,11 @@ namespace Seminarska_Fi
             this.Register.UseVisualStyleBackColor = true;
             this.Register.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // button1_arr
-            // 
-            this.button1_arr.Location = new System.Drawing.Point(689, 236);
-            this.button1_arr.Name = "button1_arr";
-            this.button1_arr.Size = new System.Drawing.Size(75, 23);
-            this.button1_arr.TabIndex = 6;
-            this.button1_arr.Text = "Add to arr";
-            this.button1_arr.UseVisualStyleBackColor = true;
-            this.button1_arr.Click += new System.EventHandler(this.button1_arr_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(582, 236);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Podatki";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(937, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button1_arr);
             this.Controls.Add(this.Register);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Username);
@@ -140,8 +117,6 @@ namespace Seminarska_Fi
         private System.Windows.Forms.TextBox Username;
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.Button Register;
-        private System.Windows.Forms.Button button1_arr;
-        private System.Windows.Forms.Button button1;
     }
 }
 
