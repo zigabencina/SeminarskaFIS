@@ -9,15 +9,15 @@ using System.Data;
 
 namespace Seminarska_Fi
 {
-    class Pocitnice
+    public class Pocitnice
     {
-        string[] tip_pocitnic = new string[4] {"Potovanje","Krizarjenje","Kampiranje","Hotel"};
-        int id;
-        int max_ljudi;
-        string drzava;
-        int cena;
-        string[] termini; // termini v stringu zapisani format = "min:ura,dan.mesec.leto min:ura,dan.mesec.leto"
-        string[] rezervacije; // rezervacije v stringu zapisane format = "dan.mesec.leto dan.mesec.leto"
+        public int id { get; set; }
+        public string tip_pocitnic { get; set; } 
+        public int max_ljudi { get; set; }
+        public string drzava { get; set; }
+        public int cena { get; set; }
+        public string termin { get; set; }// termini v stringu zapisani format = "dan.mesec.leto dan.mesec.leto"
+        public  string rezervacija { get; set; } // rezervacije v stringu zapisane format = "dan.mesec.leto dan.mesec.leto"
 
     }
     class UporabniskiVmesnik
@@ -29,7 +29,10 @@ namespace Seminarska_Fi
         // na indeksu 2 je geslo
         int stUporabnik;
         // spremeni path ce nisi ziga in tude ce si zameni k nisi zmeri na istm kompu
-        string path = @"C:\Users\dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\uporabniki.txt";
+
+        string path = @"C:\Users\Dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\uporabniki.txt";
+
+
         public void podatki()
         {
             string[] lines = File.ReadAllLines(path);

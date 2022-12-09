@@ -104,6 +104,7 @@ C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska
 C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CopyComplete
 C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.exe
 C:\Users\zigab\OneDrive\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.pdb
+<<<<<<< Updated upstream
 C:\Users\dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.exe.config
 C:\Users\dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.exe
 C:\Users\dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\bin\Debug\Seminarska Fi.pdb
@@ -117,3 +118,6 @@ C:\Users\dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\D
 C:\Users\dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csproj.CopyComplete
 C:\Users\dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.exe
 C:\Users\dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.pdb
+=======
+C:\Users\Dijak\Documents\GitHub\SeminarskaFIS\Seminarska Fis\Seminarska Fi\obj\Debug\Seminarska Fi.csprojResolveAssemblyReference.cache
+>>>>>>> Stashed changes
