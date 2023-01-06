@@ -87,21 +87,24 @@ namespace Seminarska_Fi
             
         }
 
-        private void Password_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
         private void Password_KeyDown(object sender, KeyEventArgs e)
         {
-
-            if (Password.Text != "")
+           
+            if (e.KeyCode == Keys.Enter)
             {
-                if (e.KeyCode == Keys.Enter)
-                {
-                    Login.Focus();
-                    Login.PerformClick();
-                }
+               
+                button1_Click(this, new EventArgs());
             }
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

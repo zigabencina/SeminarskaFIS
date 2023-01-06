@@ -122,6 +122,7 @@ namespace Seminarska_Fi
                         }
                     }
                 }
+                
             }
             else if (uporabnik == "admin")
             {

@@ -32,12 +32,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.tip_pocitnice = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idpoc = new System.Windows.Forms.Label();
-            this.id_poc_text = new System.Windows.Forms.TextBox();
             this.cena = new System.Windows.Forms.Label();
             this.cena_text = new System.Windows.Forms.TextBox();
             this.termin = new System.Windows.Forms.Label();
             this.termin_text = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.drzava = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,31 +76,14 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(26, 191);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(679, 352);
+            this.dataGridView1.Size = new System.Drawing.Size(946, 352);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // idpoc
-            // 
-            this.idpoc.AutoSize = true;
-            this.idpoc.Location = new System.Drawing.Point(242, 43);
-            this.idpoc.Name = "idpoc";
-            this.idpoc.Size = new System.Drawing.Size(92, 13);
-            this.idpoc.TabIndex = 5;
-            this.idpoc.Text = "Iskanje id počitnic";
-            this.idpoc.Click += new System.EventHandler(this.label1_Click_1);
-            // 
-            // id_poc_text
-            // 
-            this.id_poc_text.Location = new System.Drawing.Point(245, 69);
-            this.id_poc_text.Name = "id_poc_text";
-            this.id_poc_text.Size = new System.Drawing.Size(123, 20);
-            this.id_poc_text.TabIndex = 4;
             // 
             // cena
             // 
             this.cena.AutoSize = true;
-            this.cena.Location = new System.Drawing.Point(23, 110);
+            this.cena.Location = new System.Drawing.Point(242, 43);
             this.cena.Name = "cena";
             this.cena.Size = new System.Drawing.Size(108, 13);
             this.cena.TabIndex = 7;
@@ -108,15 +91,16 @@
             // 
             // cena_text
             // 
-            this.cena_text.Location = new System.Drawing.Point(26, 135);
+            this.cena_text.Location = new System.Drawing.Point(245, 68);
             this.cena_text.Name = "cena_text";
             this.cena_text.Size = new System.Drawing.Size(123, 20);
             this.cena_text.TabIndex = 6;
+            this.cena_text.TextChanged += new System.EventHandler(this.cena_text_TextChanged);
             // 
             // termin
             // 
             this.termin.AutoSize = true;
-            this.termin.Location = new System.Drawing.Point(242, 110);
+            this.termin.Location = new System.Drawing.Point(23, 116);
             this.termin.Name = "termin";
             this.termin.Size = new System.Drawing.Size(118, 13);
             this.termin.TabIndex = 9;
@@ -124,22 +108,41 @@
             // 
             // termin_text
             // 
-            this.termin_text.Location = new System.Drawing.Point(245, 135);
+            this.termin_text.Location = new System.Drawing.Point(26, 135);
             this.termin_text.Name = "termin_text";
             this.termin_text.Size = new System.Drawing.Size(123, 20);
             this.termin_text.TabIndex = 8;
+            this.termin_text.TextChanged += new System.EventHandler(this.termin_text_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(242, 116);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Iskanje po državi";
+            this.label1.Click += new System.EventHandler(this.label1_Click_2);
+            // 
+            // drzava
+            // 
+            this.drzava.Location = new System.Drawing.Point(245, 135);
+            this.drzava.Name = "drzava";
+            this.drzava.Size = new System.Drawing.Size(123, 20);
+            this.drzava.TabIndex = 10;
+            this.drzava.TextChanged += new System.EventHandler(this.drzava_TextChanged);
             // 
             // Uporabnik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1451, 645);
+            this.Controls.Add(this.drzava);
             this.Controls.Add(this.termin);
             this.Controls.Add(this.termin_text);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cena);
             this.Controls.Add(this.cena_text);
-            this.Controls.Add(this.idpoc);
-            this.Controls.Add(this.id_poc_text);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.tip_pocitnice);
             this.Controls.Add(this.button1);
@@ -159,11 +162,11 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label tip_pocitnice;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label idpoc;
-        private System.Windows.Forms.TextBox id_poc_text;
         private System.Windows.Forms.Label cena;
         private System.Windows.Forms.TextBox cena_text;
         private System.Windows.Forms.Label termin;
         private System.Windows.Forms.TextBox termin_text;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox drzava;
     }
 }
