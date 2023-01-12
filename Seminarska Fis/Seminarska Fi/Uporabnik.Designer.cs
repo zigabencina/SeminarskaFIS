@@ -136,8 +136,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1451, 645);
             this.Controls.Add(this.drzava);
+=======
+            this.ClientSize = new System.Drawing.Size(1481, 645);
+>>>>>>> Stashed changes
             this.Controls.Add(this.termin);
             this.Controls.Add(this.termin_text);
             this.Controls.Add(this.label1);

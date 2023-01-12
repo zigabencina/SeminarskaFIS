@@ -31,7 +31,7 @@ namespace Seminarska_Fi
                 id = 0,
                 tip_pocitnic = "Potovanje",
                 max_ljudi = 10,
-                drzava = "Slovenja",
+                drzava = "Slovenija",
                 cena = 1000,
                 termin = "20.4.2022 20.5.2022",
 
@@ -51,7 +51,7 @@ namespace Seminarska_Fi
                 id = 2,
                 tip_pocitnic = "Kampiranje",
                 max_ljudi = 5,
-                drzava = "Slovenja",
+                drzava = "Slovenija",
                 cena = 100,
                 termin = "4.1.2022 5.1.2022",
 
@@ -202,9 +202,34 @@ namespace Seminarska_Fi
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
             (dataGridView1.DataSource as DataTable).DefaultView.RowFilter = string.Format("Tip LIKE '{0}%'", tip_pocitnice_text.Text);
+=======
+            string searchValue = tip_pocitnice_text.Text;
+            int rowIndex = -1;
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            try
+            {
+                foreach (DataGridViewRow row in dataGridView1.Rows)
+                {
+                    if (row.Cells[0].Value.ToString().Contains(searchValue))
+                    {
+                        rowIndex = row.Index;
+                        dataGridView1.ClearSelection();
+                        row.Selected = true;
+                        dataGridView1.FirstDisplayedScrollingRowIndex = rowIndex;
+                        dataGridView1.Focus();
+                        break;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No solutions with that name.");
+            }
+           
+>>>>>>> Stashed changes
         }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
